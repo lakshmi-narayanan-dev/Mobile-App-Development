@@ -6,22 +6,40 @@ https://youtu.be/2x8HP_VnPGc?feature=shared
 ----------------------------------------
 Installation + Official Docs
 ----------------------------------------
+https://reactnative.dev/docs/environment-setup?guide=native 
+https://reactnative.dev/
+
 Install & Run the React native App
 npx react-native@latest init AwesomeProject [folder name] && code . 
- npm run start && npm run android
+npm run start && npm run android
 
 Android Studio Setup - Emulator  
- https://www.youtube.com/watch?v=r33OwlTnTE4 
+https://www.youtube.com/watch?v=r33OwlTnTE4 
 SDK manager -> SDK Platforms > Android 13 tick && SDK Tools > 31.0.0 tick > Apply.
 Virtual Device Manager > Create Device > Select Device > Recommended OS [click download] > Next > Finish > Play button in the device manager list > Android Emulator Opens. [react native code plays in Emulator]
 
 ---------------------------------------------------
- History of App Development
+History of App Development
 ---------------------------------------------------
 React native & Flutter are example of native like
 1. Xamarin - Microsoft written c# iOS Android app in the same code . It written in c# convert & compile to native languages
 2. React Native - native views can be accessed. Js + react library. Facebook developed 
 3. Flutter - recent developed by Google 
+
+Native Apps
+Cons for native apps development =  2 dedicated team for android & IOS apps development = 2 team , 2 times salary , High Cost , High Time Consumption.
+4 languages under native apps , IOS - Objective c + Swift , Android - Java + Kotlin
+Pros are Performance + Security
+
+Solution to Cons of Native Apps
+Cordova = took web as a solution using html , css , js
+Cons = shipping web view inside an app + Performance is not upto a native apps 
+Pros = It solve one code all platform 
+UI wise = android & IOS are having different UI = Hard to stick to one UI in web Apps
+
+Final Solution to Native + web apps
+Hybrid/Native Like apps = React native or Flutter 
+Combination of native [performance & security ] + Web Apps [1 code = all platforms] -> Develop Apps 
 
 ---------------------------------------------------
 Why React Native ?
@@ -60,15 +78,20 @@ Export is mandatory to use this code in other component
 3. Fun things , style sheet is an api react gives us
 4. Export - use it other components
 
+Companies using react native to build their apps like Facebook , instagram , Uber Eats , Skype , Discord
+
+
 ------------------------------
 React native apps prerequisites
 ------------------------------
-Nodejs LTS
-Vs Code
-Expo CLI
-Android Emulator
-IOS simulator
+1. lts nodejs
+2. Vs code
+3. Expo command line interface
+4. React native app
+5. Android stimulator
+6. iPhone stimulator
 
+ 
 ------------------------------
 RN Libraries
 -------------------------------
@@ -84,12 +107,15 @@ React Hooks
 Device Permission
 Debugging Support
 
+25$ One time payment for play store my Apps.
 
 
+
+Developed by Meta in 2015 | Big Community | Meta so JSX + react based | Opening and demand is high | Cross platform support | Learning curve is low.
 
 Start the APP development Learning by January 1st 2024.
 
-https://reactnative.dev/docs/environment-setup?guide=native 
+
 
 https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio#6 
 
@@ -127,12 +153,6 @@ source ~/.bashrc
 
 
 
------------------------------------------------------------------------------------
-APP DEVELOPMENT
------------------------------------------------------------------------------------
-React Native Course
-Companies using react native to build their apps like Facebook , instagram , Uber Eats , Skype , Discord
-
 
 
 
@@ -146,20 +166,7 @@ Initially apps in IOS is build in Objective C , because Apple OS build on Object
 Android was built by Google with java , so conversely Android apps are made by java
 2010 Kotlin language has been launched by Jetbrains to develop android apps
 
-Native Apps
-Cons for native apps development =  2 dedicated team for android & IOS apps development = 2 team , 2 times salary , High Cost , High Time Consumption.
-4 languages under native apps , IOS - Objective c + Swift , Android - Java + Kotlin
-Pros are Performance + Security
 
-Solution to Cons of Native Apps
-Cordova = took web as a solution using html , css , js
-Cons = shipping web view inside an app + Performance is not upto a native apps 
-Pros = It solve one code all platform 
-UI wise = android & IOS are having different UI = Hard to stick to one UI in web Apps
-
-Final Solution to Native + web apps
-Hybrid/Native Like apps = React native or Flutter 
-Combination of native [performance & security ] + Web Apps [1 code = all platforms] -> Develop Apps 
 
 
 
@@ -223,39 +230,13 @@ Native like is like combining ideas of native & web . Native performance & web i
 
 ----------------------------------------------------------------------------------------------
 Flutter
-----------------------------------------------------------------------------------------------
-https://flutter.dev/
-https://docs.flutter.dev/get-started/install/linux 
-
-Developed by Google in 2017 | Dart language, the learning curve is high , it takes time to understand the language.
 
 
-----------------------------------------------------------------------------------------------
-React Native
-----------------------------------------------------------------------------------------------
 
-https://reactnative.dev/
-https://reactnative.dev/docs/environment-setup?guide=native 
-Developed by Meta in 2015 | Big Community | Meta so JSX + react based | Opening and demand is high | Cross platform support | Learning curve is low.
 
-Dependencies to run react native app
-1. lts nodejs
-2. Vs code
-3. Expo command line interface
-4. React native app
-5. Android stimulator
-6. iPhone stimulator
 
-React navigation to use navigate to many pages
-Firebase use for login functionality + authentication
 
-Stripe payment like razorpay
-Google map API
-Css in JS
-Animations - Lote Airbnb library
 
-Deploy these apps in Google store & apple store .
-Add-on : react hooks, device permission, debugging support
 
 
 
