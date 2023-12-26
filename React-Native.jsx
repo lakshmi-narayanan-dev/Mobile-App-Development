@@ -1,3 +1,92 @@
+---------------------------------------
+Vs Code Extension to react native app
+---------------------------------------
+https://youtu.be/2x8HP_VnPGc?feature=shared
+
+----------------------------------------
+Installation + Official Docs
+----------------------------------------
+Install & Run the React native App
+npx react-native@latest init AwesomeProject [folder name] && code . 
+ npm run start && npm run android
+
+Android Studio Setup - Emulator  
+ https://www.youtube.com/watch?v=r33OwlTnTE4 
+SDK manager -> SDK Platforms > Android 13 tick && SDK Tools > 31.0.0 tick > Apply.
+Virtual Device Manager > Create Device > Select Device > Recommended OS [click download] > Next > Finish > Play button in the device manager list > Android Emulator Opens. [react native code plays in Emulator]
+
+---------------------------------------------------
+ History of App Development
+---------------------------------------------------
+React native & Flutter are example of native like
+1. Xamarin - Microsoft written c# iOS Android app in the same code . It written in c# convert & compile to native languages
+2. React Native - native views can be accessed. Js + react library. Facebook developed 
+3. Flutter - recent developed by Google 
+
+---------------------------------------------------
+Why React Native ?
+---------------------------------------------------
+React native can be written with Swift or Java to build react native apps
+Flutter vs react native - WHY RN?
+3 main reason
+- big community, enough documentation, enough solutions to issues.
+- Big companies using it , used by Facebook , uber eats , skype , Shopify 
+- job wise more hiring
+- cross platform iOS & Android
+
+React native app: 
+1. React native docs
+
+Principle of react native code
+Core components & native components
+Compile react native code to native code
+UI user interface are views (list button image)
+
+Example <view> <Text> - react native
+Android view - viewGroup , Textvie
+iOS - UiTextview , UIView
+
+React native gives 2 things - components & API 
+Dimensions api gives user dimension using the external api
+
+React library also used in native.
+React library knows what to show in UI
+
+Export is mandatory to use this code in other component
+
+4 things to do code in react:
+1. Import tools we need
+2. Own components create
+3. Fun things , style sheet is an api react gives us
+4. Export - use it other components
+
+------------------------------
+React native apps prerequisites
+------------------------------
+Nodejs LTS
+Vs Code
+Expo CLI
+Android Emulator
+IOS simulator
+
+------------------------------
+RN Libraries
+-------------------------------
+React navigation / navigate to many pages
+Firebase / authentication functionality
+Stripe / Razorpay alternative
+Paypal / Global payment
+Google map / API to integrate maps inside apps
+Css in JS 
+Animate / Lote , Airbnb library
+Deploy APPS
+React Hooks 
+Device Permission
+Debugging Support
+
+
+
+
 Start the APP development Learning by January 1st 2024.
 
 https://reactnative.dev/docs/environment-setup?guide=native 
@@ -27,14 +116,6 @@ nano ~/.bashrc -> Export 3 line copy from docs paste it in the last line.
 source ~/.bashrc
 
 
-Install & Run the React native App
-npx react-native@latest init AwesomeProject [folder name] && code . 
- npm run start && npm run android
-
-Android Studio Setup - Emulator  
- https://www.youtube.com/watch?v=r33OwlTnTE4 
-SDK manager -> SDK Platforms > Android 13 tick && SDK Tools > 31.0.0 tick > Apply.
-Virtual Device Manager > Create Device > Select Device > Recommended OS [click download] > Next > Finish > Play button in the device manager list > Android Emulator Opens. [react native code plays in Emulator]
 
 
 
@@ -42,47 +123,6 @@ Virtual Device Manager > Create Device > Select Device > Recommended OS [click d
 
 
 
-React native & Flutter are example of native like
-1. Xamarin - Microsoft written c# iOS Android app in the same code . It written in c# convert & compile to native languages
-2. React Native - native views can be accessed. Js + react library. Facebook developed 
-3. Flutter - recent developed by Google 
-
-Flutter vs react native - WHY RN?
-3 main reason
-- big community, enough documentation, enough solutions to issues.
-- Big companies using it , used by Facebook , uber eats , skype , Shopify 
-- job wise more hiring
-- cross platform iOS & Android
-
-React native can be written with Swift or Java to build react native apps
-
-React native app: 
-1. React native docs
-
-Principle of react native code
-Core components & native components
-Compile react native code to native code
-UI user interface are views (list button image)
-
-
-Example <view> <Text> - react native
-Android view - viewGroup , Textvie
-iOS - UiTextview , UIView
-
-React native gives 2 things - components & API 
-Dimensions api gives user dimension using the external api
-
-React library also used in native.
-React library knows what to show in UI
-
-Export is mandatory to use this code in other component
-
-
-4 things to do code in react:
-1. Import tools we need
-2. Own components create
-3. Fun things , style sheet is an api react gives us
-4. Export - use it other components
 
 
 
@@ -93,25 +133,9 @@ APP DEVELOPMENT
 React Native Course
 Companies using react native to build their apps like Facebook , instagram , Uber Eats , Skype , Discord
 
-React native apps prerequisites
-Nodejs LTS
-Vs Code
-Expo CLI
-Android Emulator
-IOS simulator
 
-React Native Libraries
-React navigation / navigate to many pages
-Firebase / authentication functionality
-Stripe / Razorpay alternative
-Paypal / Global payment
-Google map / API to integrate maps inside apps
-Css in JS 
-Animate / Lote , Airbnb library
-Deploy APPS
-React Hooks 
-Device Permission
-Debugging Support
+
+
 
 
 React Native History
@@ -235,13 +259,4 @@ Add-on : react hooks, device permission, debugging support
 
 
 
-
-----------------------------------------------------------------------------------------------
-Android - JAVA/KOTLIN
-----------------------------------------------------------------------------------------------
-
-
-----------------------------------------------------------------------------------------------
-iOS- Swift
-----------------------------------------------------------------------------------------------
 
