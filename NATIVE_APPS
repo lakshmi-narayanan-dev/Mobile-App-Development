@@ -1,6 +1,9 @@
+--------------------------------------------------------------------------------------------
 —-------------------------------------------------------------------------------------------
 APP Development History
 —-------------------------------------------------------------------------------------------
+—-------------------------------------------------------------------------------------------
+
 iOS , Android two major OS in the world
 We can't use Android app in IOS same as in reverse
 
@@ -19,6 +22,11 @@ NATIVE
 New language created by iOS is Swift & Android is Kotlin
 2 languages to build Android & iOS apps respectively 
 This 4 language comes under native way of creating an app, which means phone intend to develop an app
+
+--------------------
+Pros of Native Apps
+--------------------
+Performance & Security
 
 --------------------
 Cons of Native Apps
@@ -53,26 +61,6 @@ Merging the 1st and 2nd Solutions
 ----------------------------------
 Native like is like combining ideas of native & web . 
 Native performance & web idea of same code used in both operating system
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 ----------------------------------------------------------------------------------------------------------------
