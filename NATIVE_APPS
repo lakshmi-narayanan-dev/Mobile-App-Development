@@ -1,3 +1,46 @@
----------------------------
-History
---------------------------
+—-------------------------------------------------------------------------------------------
+APP Development History
+—-------------------------------------------------------------------------------------------
+iOS , Android two major OS in the world
+We can't use Android app in IOS same as in reverse
+
+Apple apps Built using Objective C
+Google apps Built using JAVA
+
+New language created by iOS is Swift & Android is Kotlin
+2 languages to build Android & iOS apps respectively 
+This 4 language comes under native way of creating an app, which means phone intend to develop an app
+
+Cons of Native Apps
+--------------------
+Companies want to spend too much money on having separate teams to develop Android & iOS apps . It's too costly
+
+----------------
+First solution
+----------------
+It came as web , cordova & ionic build apps in javascript, html , css looks like an app.
+
+-----------------------
+Cons of First Solution
+-----------------------
+Problem with web apps is you literally ship a web view inside an app to view. 
+But Apple & Android have different looks in apps. We should settle for one look in webapps & it's also slow.
+Webapps never create serious apps.
+
+----------------------
+Second Solution
+-----------------------
+PWA - progressive web apps . Progressiveapp.store
+A website that you can download , or use on the web like Instagram , Google maps
+
+-----------------------
+Cons of Second Solution
+-----------------------
+But lacks in performance
+
+----------------------------------
+Merging the 1st and 2nd Solutions
+----------------------------------
+Native like is like combining ideas of native & web . 
+Native performance & web idea of same code used in both operating system
+
