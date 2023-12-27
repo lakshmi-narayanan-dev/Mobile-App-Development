@@ -188,55 +188,6 @@ React libraries also used in react native
 React native code -> convert -> Native code 
 
 
-—-------------------------------------------------------------------------------------------
-APP Development History
-—-------------------------------------------------------------------------------------------
-
-Built any mobile apps in iOS and Android
-Microsoft Facebook Walmart using react native to build app
-To build react native application you must know react first
-
-
-History of React native
-iOS , Android two major OS in the world
-We can't use Android app in IOS same as in reverse
-
-Apple app - objective C to use build iPhone app
-Google app - Java to use build
-
-iOS is written in objective C & C
-Android is written in Java
-
-New language created by iOS is Swift 
-Kotlin language created by Android to build apps
-
-2 languages to build Android & iOS apps respectively 
-
-This 4 language comes under native way of creating an app, which means phone intend to develop an app
-
-Companies want to spend too much money on having separate teams to develop Android & iOS apps . It's too costly
-
-First solution came as web , cordova & ionic build apps in javascript, html , css looks like an app.
-Problem with web apps is you literally ship a web view inside an app to view. 
-
-But Apple & Android have different looks in apps. We should settle for one look in webapps & it's also slow.
-Webapps never create serious apps.
-
-PWA - progressive web apps . Progressiveapp.store
-A website that you can download , or use on the web like Instagram , Google maps . But lacks in performance
-
-Native like is like combining ideas of native & web . Native performance & web idea of same code used in both operating system
-
-
-----------------------------------------------------------------------------------------------
-Flutter
-
-
-
-
-
-
-
 
 
 
