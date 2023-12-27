@@ -4,13 +4,23 @@ APP Development History
 iOS , Android two major OS in the world
 We can't use Android app in IOS same as in reverse
 
-Apple apps Built using Objective C
-Google apps Built using JAVA
+Initially apps in IOS is build in Objective C , because Apple OS build on Objective C & C , 2014 swift language was launched by apple to upgrade its objective c language for IOS apps development.
+Android was built by Google with java , so conversely Android apps are made by java , 2010 Kotlin language has been launched by Jetbrains to develop android apps.
 
+-----------------------------
+XAMARIN
+-----------------------------
+Xamarin - Microsoft written c# iOS Android app in the same code . It written in c# convert & compile to native languages
+https://www.google.com/search?q=c%23+xamarin+cons&sca_esv=593947850&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjKwKi1q6-DAxUQTmwGHaxZAW0Q_AUoAnoECAEQBA&biw=1920&bih=932&dpr=1#imgrc=gWZI1JHzblY3FM
+
+-----------------
+NATIVE
+-----------------
 New language created by iOS is Swift & Android is Kotlin
 2 languages to build Android & iOS apps respectively 
 This 4 language comes under native way of creating an app, which means phone intend to develop an app
 
+--------------------
 Cons of Native Apps
 --------------------
 Companies want to spend too much money on having separate teams to develop Android & iOS apps . It's too costly
